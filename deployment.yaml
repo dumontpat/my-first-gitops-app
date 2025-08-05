@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx:1.24.0  # Our initial image version
+        image: nginx:1.25.0  # Changed from 1.24.0 to 1.15.0
         ports:
         - containerPort: 80
